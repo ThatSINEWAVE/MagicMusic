@@ -1,6 +1,6 @@
 <div align="center">
 
-# MagicMusic Generator
+# [MagicMusic Generator](https://thatsinewave.github.io/MagicMusic)
 
 Welcome to MagicMusic Generator, where creativity meets music and storytelling!
 MagicMusic Generator is a web application that allows users to explore random music genres and storylines. With just a few clicks, you can embark on a journey of musical inspiration and imaginative narratives.
