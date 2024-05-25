@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenreStory Magic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
+    <link rel="manifest" href="site-data/site.webmanifest">
+  </head>
+  <body>
+    <div class="container">
+      <h1>MagicMusic Generator</h1>
+      <div id="main-menu">
+        <p>Unleash your creativity with random music genres and storylines. Click "Let's Begin" to start your journey!</p>
+        <button id="begin-button">Let's Begin</button>
+      </div>
+      <div id="genre-input-menu" class="hidden">
+        <p>How many genres do you want?</p>
+        <input type="number" id="genre-count" min="1" max="50">
+        <button id="continue-button" disabled>Continue</button>
+      </div>
+      <div id="storyline-input-menu" class="hidden">
+        <p>How many storylines do you want?</p>
+        <input type="number" id="storyline-count" min="1" max="50">
+        <button id="back-button">Go Back</button>
+        <button id="generate-button" disabled>Generate</button>
+      </div>
+      <div id="results" class="hidden">
+        <div id="generated-content"></div>
+        <button id="restart-button">Restart</button>
+      </div>
+    </div>
+    <footer>
+      <a href="https://discord.com/invite/2nHHHBWNDw" target="_blank">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="https://ko-fi.com/thatsinewave" target="_blank">
+        <i class="fas fa-heart"></i>
+      </a>
+      <a href="https://github.com/ThatSINEWAVE/MagicMusic" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
