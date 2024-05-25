@@ -5,6 +5,8 @@
 Welcome to MagicMusic Generator, where creativity meets music and storytelling!
 MagicMusic Generator is a web application that allows users to explore random music genres and storylines. With just a few clicks, you can embark on a journey of musical inspiration and imaginative narratives.
 
+![MagicMusic](https://github.com/ThatSINEWAVE/MagicMusic/assets/133239148/eeb94517-612b-43a8-b7d4-47e3861a795c)
+
 </div>
 
 ## Features
