@@ -1,0 +1,128 @@
+body {
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	background-color: #f4f4f9;
+	color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	padding: 20px;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 40px;
+	max-width: 500px;
+	width: 100%;
+	text-align: center;
+	transition: all 0.3s ease;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 20px;
+	color: #5a67d8;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+	padding: 10px 0;
+	z-index: 1000;
+}
+
+p {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+}
+
+input[type="number"] {
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin: 20px 0;
+	font-size: 1.1em;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+	border-color: #5a67d8;
+	outline: none;
+}
+
+input[type="number"].invalid {
+	border-color: red;
+}
+
+button {
+	background-color: #5a67d8;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	padding: 12px 24px;
+	font-size: 1em;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	margin: 10px 5px;
+}
+
+button:disabled {
+	background-color: #ddd;
+	cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+	background-color: #434190;
+	transform: translateY(-2px);
+}
+
+button:active:not(:disabled) {
+	background-color: #6b46c1;
+	transform: translateY(0);
+}
+
+.hidden {
+	display: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	background-color: #f9fafb;
+	border: 1px solid #eee;
+	padding: 10px;
+	margin: 5px 0;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+}
+
+li:hover {
+	background-color: #edf2f7;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background: transparent;
+}
+
+footer a {
+	margin: 0 15px;
+	display: inline-block;
+	font-size: 20px;
+	color: black;
+}
